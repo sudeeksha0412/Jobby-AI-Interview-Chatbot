@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Interview Helper</title>
+
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- ✅ Add Marked.js for rendering Markdown properly -->
+</head>
+
+<body>
+    <nav class="navbar">
+    <div class="logo">💼 Jobby</div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/interview-tips">Interview Tips</a></li>
+      <li><a href="/technical-questions">Technical Questions</a></li>
+      <li><a href="/resume-tips">Resume Tips</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Hero Section -->
+  <section class="hero">
+    <h1>Welcome to <span class="highlight">Jobby</span> 🤖</h1>
+    <p>Your AI Assistant for mastering job interviews — from coding to communication!</p>
+    <button onclick="toggleChat()">💬 Chat with Jobby</button>
+  </section>
+
+  <!-- 🔹 Info Cards -->
+  <section class="cards">
+    <div class="card">
+      <h2>🧠 Mock Interview Practice</h2>
+      <p>Chat with Jobby to simulate real interview Q&A sessions.</p>
+    </div>
+    <div class="card">
+      <h2>📘 Resume Builder Tips</h2>
+      <p>Get personalized advice to make your resume stand out.</p>
+    </div>
+    <div class="card">
+      <h2>⚙ Technical Preparation</h2>
+      <p>Learn DSA, OOP, OS, and DBMS concepts with code samples.</p>
+    </div>
+  </section>
+
+  <div class="container">
+      <div id="chatbot-container" class="hidden">
+          <h1>Job Interview ChatBot</h1>
+
+          <!-- ✅ Reduced yellow box size -->
+            <div class="message" style="max-width: 400px; margin: 10px auto; padding: 10px; background-color: #0c0333; border-radius: 10px;">
+                <div>😊 I'am Jobby..I'am here to help you with job interview </div>
+                <div>💡 Tip: Ask me any questions related to job interviews</div>
+                <div class="timestamp">
+                    🕒 <span id="current-timestamp"></span>
+                </div>
+            </div>
+
+            <!-- Chat Display -->
+            <div id="chat" class="chat-window"></div>
+
+            <!-- Input Form -->
+            <form id="chat-form">
+<button type="button" class="plusbutton" id="plusBtn">
+    +
+</button>
+
+<div id="uploadMenu" class="upload-menu hidden">
+
+    <button type="button" id="imageOption">
+        🖼 Upload Image
+    </button>
+
+    <button type="button" id="pdfOption">
+        📄 Upload PDF
+    </button>
+
+</div>
+
+<input
+type="file"
+id="imageInput"
+accept="image/*"
+hidden>
+
+<input
+type="file"
+id="pdfInput"
+accept=".pdf"
+hidden><textarea
+    id="user-input"
+    rows="1"
+    placeholder="Type your message..."
+    required></textarea>
+                    <div class="mic">
+                  <button type="button" id="micButton">
+                  <i id="icon"  class="fa-solid fa-microphone" title="Click to start speaking"></i></button></div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <!-- Chatbot Icon -->
+        <div class="chatbot-icon" onclick="toggleChat()">
+            <img src="{{ url_for('static', filename='images/images.jpg') }}" alt="Chatbot Icon">
+        </div>
+    </div>
+    
+
+    <!-- ✅ Include chatbot logic -->
+
+    <!-- ✅ Ensure code blocks look clean -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+   
+</body>
+</html>
