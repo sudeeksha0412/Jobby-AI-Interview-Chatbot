@@ -145,12 +145,21 @@ Upload an image containing interview questions. The chatbot extracts the text us
 
 ### 📝 Multiple Question Answering
 
-Answer multiple interview questions can be answered at a time.
+Jobby can answer multiple interview questions from an uploaded PDF or image in a single response, making interview preparation faster and more efficient.
 
-![Multiple Questions](ScreenShots/Screenshot 2026-07-13 184839.png)
-![Voice Interaction](ScreenShots/Screenshot 2026-07-13 184839.png)
+![Multiple Question Answering](ScreenShots/MultipleQuestionAns.png)
 
 ---
+
+### 🎤 Voice-Based Interaction
+
+Jobby supports both **voice input** and **voice output** for a hands-free interview preparation experience.
+
+- 🎙️ Click the **microphone** button to speak your question. Your speech is automatically converted into text and sent to the chatbot.
+- 🔊 Click the **speaker** button below the chatbot's response to listen to the answer.
+- 💻 If the response contains programming code, Jobby reads **only the explanation**, making it easier to understand without reading the code aloud.
+
+![Voice Interaction](ScreenShots/VoiceInteraction.png)
 
 ### 🧠 Interview Suggestions
 
@@ -168,11 +177,7 @@ Supports aptitude and reasoning questions with step-by-step explanations.
 
 ---
 
-### 🎤 Voice-Based Interaction
 
-Supports voice input and voice output for hands-free interview preparation.We can click on mic to give the voice input which converted into text and if we want bot to give voice output
-
-![Voice Interaction](ScreenShots/Screenshot 2026-07-13 184839.png)
 
 ## 👩‍💻 Author
 
