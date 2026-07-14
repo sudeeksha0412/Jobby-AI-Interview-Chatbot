@@ -107,6 +107,72 @@ http://127.0.0.1:5000
 - Interactive chatbot UI
 
 ---
+---
+
+## 📸 Screenshots
+
+### 💬 Chatbot Interface
+
+Interactive chatbot interface for asking interview-related questions.
+
+![Chatbot Interface](ScreenShots/chatbot.png)
+
+---
+
+### 💻 Technical Interview Question
+
+Example of answering a technical interview question with explanation.
+
+![Technical Interview](ScreenShots/Techinical.png)
+
+---
+
+### 📄 PDF Upload & Analysis
+
+Upload an interview PDF and ask questions or summarize its contents.
+
+![PDF Upload](ScreenShots/PdfInput.png)
+
+---
+
+### 🖼️ Image OCR Analysis
+
+Upload an image containing interview questions. The chatbot extracts the text using OCR and processes it.
+
+![Image OCR](ScreenShots/ImageInput.png)
+
+---
+
+### 📝 Multiple Question Answering
+
+Answer multiple interview questions can be answered at a time.
+
+![Multiple Questions](ScreenShots/MultipleQuestion Ans.png)
+![Voice Interaction](ScreenShots/Screenshot 2026-07-13 184839.png)
+
+---
+
+### 🧠 Interview Suggestions
+
+Provides interview preparation guidance and suggestions.
+
+![Interview Suggestions](ScreenShots/InterviewSuggestion.png)
+
+---
+
+### 📊 Aptitude Question Solving
+
+Supports aptitude and reasoning questions with step-by-step explanations.
+
+![Aptitude](ScreenShots/Aptitude.png)
+
+---
+
+### 🎤 Voice-Based Interaction
+
+Supports voice input and voice output for hands-free interview preparation.We can click on mic to give the voice input which converted into text and if we want bot to give voice output
+
+![Voice Interaction](ScreenShots/Screenshot 2026-07-13 184839.png)
 
 ## 👩‍💻 Author
 
