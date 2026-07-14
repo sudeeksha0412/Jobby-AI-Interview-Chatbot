@@ -110,7 +110,7 @@ http://127.0.0.1:5000
 
 ## 👩‍💻 Author
 
-**Sudeeksha Poojary**
+**Sudeeksha **
 
 B.E. Information Science & Engineering
 
