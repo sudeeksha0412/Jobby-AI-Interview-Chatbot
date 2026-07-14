@@ -147,7 +147,7 @@ Upload an image containing interview questions. The chatbot extracts the text us
 
 Answer multiple interview questions can be answered at a time.
 
-![Multiple Questions](ScreenShots/MultipleQuestion Ans.png)
+![Multiple Questions](ScreenShots/Screenshot 2026-07-13 184839.png)
 ![Voice Interaction](ScreenShots/Screenshot 2026-07-13 184839.png)
 
 ---
