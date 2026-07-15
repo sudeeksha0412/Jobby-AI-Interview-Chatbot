@@ -147,7 +147,9 @@ Upload an image containing interview questions. The chatbot extracts the text us
 
 Jobby can answer multiple interview questions from an uploaded PDF or image in a single response, making interview preparation faster and more efficient.
 
-![Multiple Question Answering](ScreenShots/MultipleQuestionAns.png)
+![Multiple Question Answering](ScreenShots/MultipleQuestionAns1.png)
+![Multiple Question Answering](ScreenShots/MultipleQuestionAns2.png)
+
 
 ---
 
@@ -159,7 +161,7 @@ Jobby supports both **voice input** and **voice output** for a hands-free interv
 - 🔊 Click the **speaker** button below the chatbot's response to listen to the answer.
 - 💻 If the response contains programming code, Jobby reads **only the explanation**, making it easier to understand without reading the code aloud.
 
-![Voice Interaction](ScreenShots/VoiceInteraction.png)
+![Voice Interaction](ScreenShots/chatbot.png)
 
 ### 🧠 Interview Suggestions
 
